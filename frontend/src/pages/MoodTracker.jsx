@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Brain, TrendingUp, MessageCircle } from 'lucide-react';
 import Sentiment from 'sentiment';
+import "./MoodTracker.css"
 
 const sentiment = new Sentiment();
 
